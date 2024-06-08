@@ -8,7 +8,7 @@ public class Main {
         PersonService personService = new PersonService();
 
         // Create a new person
-        Person person = new Person("John", "Doe", 30);
+        Person person = new Person("Akhilesh", "Anantapalli", 23);
         personService.addPerson(person);
 
         // Retrieve and display the person
