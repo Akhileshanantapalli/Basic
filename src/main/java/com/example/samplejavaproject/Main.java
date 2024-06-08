@@ -12,7 +12,7 @@ public class Main {
         personService.addPerson(person);
 
         // Retrieve and display the person
-        Person retrievedPerson = personService.getPerson("John", "Doe");
+        Person retrievedPerson = personService.getPerson("Akhilesh", "Anantapalli");
         if (retrievedPerson != null) {
             System.out.println("Person found: " + retrievedPerson);
         } else {
